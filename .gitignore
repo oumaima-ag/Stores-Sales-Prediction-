@@ -1,0 +1,49 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+*.env
+
+# Logs and temporary files
+*.log
+*.swp
+.DS_Store
+
+# Data files
+data/*.csv
+data/*.xlsx
+
+# Output files
+output/
+
+# Model files
+models/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+*.env
+
+# Editor/IDE-specific files
+.vscode/
+.idea/
+
+# Compiled files
+dist/
+build/
+
+# Python project-specific files
+__pycache__/
+.pytest_cache/
+
+# Ignore the __init__.py files in subdirectories
+**/__pycache__/__init__.py
+
+# Ignore the __pycache__ directories in subdirectories
+**/__pycache__/
